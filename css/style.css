@@ -1,0 +1,54 @@
+.vyble_anzeigeouter {max-width:1070px;margin:auto;}
+.vyble_vonlymobile {display:none;}
+.vyble_anzeige {width: 100%;	height: 90px;	display: flex;	box-shadow: 0 0 16px -2px rgba(0, 0, 0, .15);	border-radius: 5px;	margin-bottom: 15px;}
+.vyble_stellenname {	width: 70%;	background-color: #fff;	padding-left: 30px;	padding-top: 14px;	border-bottom-left-radius: 5px;	border-top-left-radius: 5px}
+.vyble_standort {	display: flex;	align-items: center;	width: 30%;	background-color: #fff;	height: 100%;	font-size: 18px;	text-align: right;	border-top-right-radius: 5px;	border-bottom-right-radius: 5px}
+.vyble_standortname {	width: 100%;	padding-left: 20px;	padding-right: 30px;	line-height: normal:}
+.vyble_name {	font-size: 24px;	line-height: 1.4}
+.vyble_beschaeftigungszeit {	font-size: 18px;color: #8997aa;	padding-top: 3px}
+.vyble_divbutton {	height: 30px;	background: #000}
+a.vyble_karrierebutton {    box-sizing: border-box;width: 100%;	margin-left: 20%;	margin-right: 30px;	border-radius: 5px;	background-color: #00ab9d;	text-decoration:none;	color:#FFF !important;	padding:10px;	text-align:center;	opacity:0;	transition: all .3s;	display:none;}
+a.vyble_karrierebutton:hover {	background-color: #22246c;	color:#FFF;}
+.vyble_anzeige:hover a.vyble_karrierebutton {	opacity:1;	display:block;}
+.vyble_anzeige:hover .vyble_standortname {	display: none}
+.vyble_vmobile .vyble_anzeige {display:block;height:auto;padding:14px 30px;box-sizing:border-box;}
+.vyble_vmobile .vyble_name {font-size:18px;line-height:normal;}
+.vyble_vmobile .vyble_standort {display:block;width:auto;}
+.vyble_vmobile .vyble_stellenname {padding:0;width:auto;display:block;}
+.vyble_vmobile a.vyble_karrierebutton {display:block;opacity:1;margin:0;}
+.vyble_vmobile .vyble_standortname {display:none;}
+.vyble_vmobile .vyble_vonlymobile {display:inline;}
+.vyble_vmobile .vyble_beschaeftigungszeit {font-size:14px;}
+.vyble_vjobdetails {max-width:1100px;margin:auto;background-color:#FFF;padding: 30px 30px 40px 30px;box-sizing:border-box;margin-top:20px;font-size: 16px;}
+.vyble_vjobdetails h1 {font-weight: 600;font-size: 38px;margin:0;    line-height: 38px;}
+.vyble_vclear {clear:both;}
+.vyble_vjobdetleft {float:left;width:58%;margin-top:30px;box-sizing:border-box;}
+.vyble_vjobdetails h2 {font-weight: 600;font-size: 26px;margin-bottom:20px;}
+.vyble_vjobdetright {float:right;width:38%;}
+.vyble_vjobdetrightbox {box-sizing:border-box;padding:30px;border-radius:8px;-webkit-box-shadow: 0 0 16px -2px rgba(0,0,0,.15)!important;    -moz-box-shadow: 0 0 16px -2px rgba(0,0,0,.15)!important;    box-shadow: 0 0 16px -2px rgba(0,0,0,.15)!important;margin-bottom:20px;}
+.vyble_vtext {margin-bottom:30px;}
+.vyble_vjobdetright input[type=text],.vyble_vjobdetright input[type=email],.vyble_vjobdetright input[type=url],.vyble_vjobdetright input[type=password],.vyble_vjobdetright input[type=search],.vyble_vjobdetright input[type=tel],.vyble_vjobdetright input[type=number],.vyble_vjobdetright textarea,.vyble_vjobdetright select {    background: #FFF;    color: #666;    border: 1px solid #ccc;    border-radius: 0;    padding: 10px 15px;    box-sizing: border-box;    width: 100%;	border-radius:5px;	font-size: 16px;	font-family:inherit;	resize:none;	display:block;}
+.vyble_vjobdetright input[type=file] {font-family:inherit;font-size: 16px;width:100%;}
+.vyble_vjobdetright p {margin:20px 0;}
+.vyble_vupload {box-sizing:border-box;border: 1px solid #ccc; border-radius: 5px; width: 100%; padding-top: 10px; padding-bottom: 10px; margin-bottom: 25px; padding-left: 15px;}
+.vyble_vupload label {font-size: 16px; color: #666;}
+.vyble_vupload.vyble_vlast {margin-bottom:0;}
+p.vyble_vstarinfo {font-size:10px;padding-left:15px;margin-top:-15px;color: #666;padding-bottom: 10px;margin:0;}
+.vyble_vdscheck {font-size:10px;line-height:13px;position:relative;}
+.vyble_vdscheck input {position:relative;top:2px;}
+.vyble_vjobdetright .vyble_vsubmit {box-sizing:border-box;white-space: normal;border:1px solid #00ab9d;cursor:pointer;font-size: 18px;font-family:inherit;display:block;width: 100%;  margin-top:20px;border-radius: 5px;    background-color: #00ab9d;    text-decoration: none;    color: #FFF;    padding: 10px;    text-align: center;  transition: all .3s;}
+.vyble_vjobdetright .vyble_vsubmit:HOVER,.vyble_vjobdetright .vyble_vsubmit.vyble_assissubmit:HOVER {background-color:#22246c;border:1px solid #22246c;color:#FFF;}
+.vyble_vjobdetright .vyble_vsubmit.vyble_assissubmit {background-color:#FFF;color:#00ab9d;border:1px solid #00ab9d;}
+.vyble_error {background-color:#ff7e98 !important;}
+.vyble_vdscheckerror {color:red !important;}
+.vyble_vformfeedback {margin-top:20px;}
+.vyble_anleftimg {float:left;width:30%;}
+.vyble_anleftimg img {display:block;width:100%;}
+.vyble_anright {float:right;width:65%;padding-top:10px;}
+
+@media all and (max-width: 900px) {
+	.vyble_vjobdetleft {float:none;width:auto;}
+	.vyble_vjobdetright {float:none;width:auto;padding: 20px 10px;}
+	.vyble_vjobdetails h1 {font-size:28px;}
+	.vyble_vjobdetails h2 {font-size:20px;}
+}
